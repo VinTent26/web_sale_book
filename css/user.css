@@ -1,0 +1,149 @@
+header{
+    background-color: #66C5FF;;
+}
+header .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .inner-logo a {
+    display: flex;             
+    align-items: center;       
+    justify-content: center;
+  }
+  
+  .inner-img img {
+    max-width: 100%;           
+    height: auto;              
+  }
+  
+  .inner-title {
+    display: flex;
+    margin-left: -65px
+  }
+  
+  .title-first, .title-second {
+    font-size: 24px;           
+  }
+  
+  .title-second {
+    font-weight: bold;
+    color: #333;         
+  }
+  .inner-search form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner-search input {
+    width: 100%;
+    max-width: 500px;
+    height: 50px;
+  }
+  .btn-outline-success {
+    border-color: #28a745;
+    padding: 12px 20px;
+    font-size: 16px;
+}
+.items-icon{
+    margin-left: 130px;
+}
+.inner-cart, .inner-user {
+    margin-right: 20px;
+    background-color: #F9F1F5;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  .inner-cart a, .inner-user a {
+    font-size: 1.5rem; /* Kích thước icon */
+    color: #333;
+    transform: rotate(-45deg); /* Màu mặc định */
+  }
+  
+  .inner-cart a:hover, .inner-user a:hover {
+    color: #28a745; /* Màu khi hover */
+  }
+  /* Section One Background */
+#section-one {
+    background-color: #f8f9fa; /* Màu nền nhẹ */
+  }
+  
+  /* Title Styling */
+  .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Description Text */
+  .section-description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  /* CTA Button */
+  .btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  /* Footer background */
+  footer  {
+    background-color: #66C5FF; /* Màu nền đen */
+  }
+  
+  /* Logo trong footer */
+  .footer-logo a {
+    font-size: 44px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  .footer-logo .title-second{
+    font-size: 44px;
+  }
+  /* Icon Mạng xã hội */
+  .social-icons a {
+    font-size: 35px;
+   
+  }
+  
+  .social-icons a:hover {
+    color: #28a745; /* Màu khi hover */
+  }
+  .contact-info p:nth-child(1){
+    font-weight: bold;
+    font-size: 20px;
+  }
+  /* Liên hệ */
+  .contact-info p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  /* Dòng chữ bản quyền */
+  footer p {
+    font-size: 14px;
+    color: #333;
+  }
+
+
+
+  
+  
