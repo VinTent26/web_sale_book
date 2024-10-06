@@ -1,0 +1,137 @@
+html,
+body {
+  height: 100%; /* Đặt chiều cao toàn bộ */
+  margin: 0; /* Loại bỏ khoảng cách mặc định */
+  display: flex; /* Sử dụng flexbox */
+  flex-direction: column; /* Xếp các phần tử theo cột */
+}
+
+/* ---header--- */
+header {
+  background-color: #66c5ff;
+}
+header .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inner-logo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner-img img {
+  max-width: 100%;
+  height: auto;
+}
+.inner-title {
+  display: flex;
+  margin-left: -65px;
+}
+.title-first,
+.title-second {
+  font-size: 24px;
+}
+.title-second {
+  font-weight: bold;
+  color: #333;
+}
+.inner-search form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-search input {
+  width: 100%;
+  max-width: 500px;
+  height: 50px;
+}
+.btn-outline-success {
+  border-color: #28a745;
+  padding: 12px 20px;
+  font-size: 16px;
+}
+.items-icon {
+  margin-left: 130px;
+}
+.inner-cart,
+.inner-user {
+  margin-right: 20px;
+  background-color: #f9f1f5;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transform: rotate(45deg);
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.inner-cart a,
+.inner-user a {
+  font-size: 1.5rem; /* Kích thước icon */
+  color: #333;
+  transform: rotate(-45deg); /* Màu mặc định */
+}
+.inner-cart a:hover,
+.inner-user a:hover {
+  color: #28a745; /* Màu khi hover */
+}
+
+/* Footer background */
+footer {
+  background-color: #66c5ff; /* Màu nền đen */
+}
+/* Logo trong footer */
+.footer-logo a {
+  font-size: 44px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+.footer-logo .title-second {
+  font-size: 44px;
+}
+/* Icon Mạng xã hội */
+.social-icons a {
+  font-size: 35px;
+}
+.social-icons a:hover {
+  color: #28a745; /* Màu khi hover */
+}
+.contact-info p:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
+}
+/* Liên hệ */
+.contact-info p {
+  margin: 0;
+  font-size: 14px;
+}
+/* Dòng chữ bản quyền */
+footer p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* ---container--- */
+.container.form-container {
+  margin-top: auto; /* Đẩy container xuống dưới */
+  margin-bottom: auto; /* Đẩy container lên trên */
+  padding: 40px 0; /* Tăng khoảng cách trên và dưới cho container */
+  min-height: 500px; /* Đặt chiều cao tối thiểu để trải dài container */
+}
+.container.form-container .row {
+  height: 140px;
+}
+#fullname,
+#phone {
+  width: 80%; /* Thay đổi kích thước theo ý muốn, ví dụ 70% của cột */
+}
+@media (max-width: 768px) {
+  #fullname,
+  #phone {
+    width: 100%; /* Khi màn hình nhỏ, làm cho các trường rộng 100% */
+  }
+}
