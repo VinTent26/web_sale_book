@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>detail</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css//detail.css" />
+    <link rel="stylesheet" href="/css//user.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="inner-logo">
+              <a href="#">
+                <div class="inner-img">
+                  <img src="/image/logo.png" alt="" />
+                </div>
+
+                <div class="inner-title">
+                  <span class="title-first">TYB</span>
+                  <span class="title-second">BOOK</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="inner-search">
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="items-icon d-flex">
+              <div class="inner-cart">
+                <a href="#">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+              </div>
+              <div class="inner-user">
+                <a href="#">
+                  <i class="fa-regular fa-user"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <!-- body -->
+    <div class="container">
+        <div class="row">
+            <!-- Section One -->
+            <section id="section-one" class="py-4 row-6">
+                <div class="row align-items-center justify-content-start">
+                    <!-- Khung bo góc -->
+                    <div class="col-12 rounded-box">
+                        <div class="d-flex flex-column align-items-center justify-content-center">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH8a1zGobtevjzfpi6skCi1tTF46yuCAsWrg&s" alt="Hài hước một chút thế giới sẽ khác đi" class="book" style="max-width: 100%;" />
+                            <div class="mt-3 d-flex justify-content-between"> 
+                                <button class="btn mb-4 add_button mr-2">Thêm vào giỏ hàng</button>
+                                <button class="btn buy_button ml-2">Mua ngay</button>
+                            </div>
+                            <div class="d-flex">
+                                <label for="quantity" class="mr-4">Số lượng</label> 
+                                <input type="number" id="quantity" class="value rounded-input" value="1" min="1" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end Section One -->
+    
+            <div class="col ml-5">
+                <!--Section two-->
+                <section class="p-5 rounded-box mt-4 mb-3 ">
+                    <h5 class="font-weight-bold mb-3">Hài hước một chút thế giới sẽ khác đi</h5>
+                    <div class="row">
+                        <div class="col-7 ">
+                            <p class="mb-1"><strong>Nhà cung cấp:</strong> Minh Long</p>
+                            <p class="mb-1"><strong>Nhà xuất bản:</strong> NXB Thanh Niên</p>
+                        </div>
+                        <div class="col-4 ">
+                            <p class="mb-1"><strong>Tác giả:</strong> Lưu Chấn Hồng</p>
+                            <p class="mb-1"><strong>Hình thức:</strong> Bìa Mềm</p>
+                        </div>
+                    </div>
+    
+                    <div class="d-flex align-items-center mt-2 mb-3">
+                        <div class="text-warning mr-2">
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                            <span>&#9733;</span>
+                        </div>
+                        <p class="mb-0">| Đã bán 1000</p>
+                    </div>
+                        
+                    <div class="font-weight-bold text-danger" style="font-size: 28px;">
+                        52.000 đ
+                    </div>
+                    <div class="text-muted" style="text-decoration: line-through; font-size: 16px;">
+                        80.000 đ
+                    </div>
+                </section>
+                <!--End Section two-->
+    
+                <!-- Section three -->
+                <section class="p-4 rounded-box  mb-4">
+                    <h5 class="font-weight-bold mb-3">Mô tả sản phẩm</h5>
+                    <h6 class="font-weight-bold">Hài Hước Một Chút Thế Giới Sẽ Khác Đi</h6>
+                    <p>Trong xã hội hiện đại, giao tiếp là chìa khóa giải quyết mọi vấn đề. Vậy làm thế nào để giao tiếp hiệu quả? Đó là biết vận dụng một cách tinh tế sự hài hước vào lời nói và tư duy, hài hước có thể giúp giúp chúng ta thiết lập được mạng lưới quan hệ rộng rãi. Tuy nhiên, hài hước không phải là một năng lực bẩm sinh, muốn có được “nghệ thuật giúp bạn thành công” này, bạn phải trải qua quá tình bồi dưỡng và rèn luyện bản thân.
+                    </p>
+                    <p>
+                        Hài hước một chút, thế giới sẽ khác đi - cuốn sách với nội dung phong phú mà sâu sắc này sẽ giúp các bạn có được cái nhìn rõ nét hơn về tính hài hước dưới các góc độ, phương diện đánh giá khác nhau, cũng như có thêm kĩ năng vận dụng sự hài hước vào cuộc sống hàng ngày.
+                    </p>
+                </section>
+                <!-- End section three -->
+            </div>
+        </div>
+    </div>
+    <!-- end body -->
+
+    <!-- Footer -->
+    <footer class="text-white py-4">
+      <div class="container">
+        <div class="row">
+          <!-- Logo -->
+          <div class="col-md-3 mb-3">
+            <div class="footer-logo">
+              <a href="#" class="text-white text-decoration-none">TYB</a>
+              <span class="title-second"> BOOK</span>
+            </div>
+          </div>
+          <!-- heloo -->
+          <!-- Contact Information -->
+          <div class="col-md-2 mb-3 text-md-end text-center">
+            <div class="contact-info">
+              <p class="mb-0">Dịch vụ</p>
+              <p class="mb-0">Điều khoản sử dụng</p>
+              <p class="mb-0">Chính sách bảo mật</p>
+            </div>
+          </div>
+          <div class="col-md-2 mb-3 text-md-end text-center">
+            <div class="contact-info">
+              <p class="mb-0">Hỗ trợ</p>
+              <p class="mb-0">Chính sách hoàn trả tiền</p>
+              <p class="mb-0">Chính sách vận chuyển</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3 text-md-end text-center">
+            <div class="contact-info">
+              <p class="mb-0">Liên hệ</p>
+              <p class="mb-0">
+                <i class="fa-solid fa-phone"></i>
+                Hotline:0905-773-799
+              </p>
+              <p class="mb-0">
+                <i class="fa-solid fa-envelope"></i>
+                Email:tybbook@gmail.com
+              </p>
+            </div>
+          </div>
+          <div class="col-md-2 mb-3 text-center">
+            <div class="social-icons">
+              <a href="#" class="text-white me-3">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#" class="text-white me-3">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#" class="text-white me-3">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#" class="text-white">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
