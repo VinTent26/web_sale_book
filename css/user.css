@@ -15,8 +15,9 @@ header .row {
 }
 
 .inner-img img {
-  max-width: 100%;
+  max-width:100%;
   height: auto;
+  margin-right: 70px;
 }
 
 .inner-title {
@@ -78,6 +79,15 @@ header .row {
   transform: rotate(-45deg); 
 }
 /* sectio-one */
+.section-one .inner-info {
+  width: 190px;
+  border-radius: 15px;
+  background-color:#66c5ff ;
+}
+.section-one .inner-info .mb-3{
+  padding: 10px;
+  color: #e7f0ff;
+}
 .section-one {
   background-color: #e7f0ff;
   padding: 40px 0;
@@ -138,3 +148,45 @@ header .row {
     font-size: 14px;
     color: #333;
   }
+  /* payment */
+  .section-two{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .section-two .inner-img{
+    width: auto;
+    height: auto;
+  }
+  .section-two .inner-title{
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+  .section-two .inner-title .inner-name{
+    background-color: #66C5FF;
+    width: auto;
+    border-radius: 20px;
+  }
+.section-two .inner-items {
+  background-color: #DBECF7;
+  border-radius: 10px;
+}
+.section-two .inner-items ul li{
+  margin-bottom: 10px;
+} 
+.payment .inner-info {
+  background-color:#DBECF7 ;
+  border-radius: 10px;
+}
+
+  .section-two .payment-total .inner-content{
+    margin: 10px;
+    padding: 15px;
+  }
+  .section-two .payment-total .btn {
+    margin-right: 10px;
+  }
+  .section-two .payment-total{
+    border-radius: 10px;
+    background-color:#DBECF7 ;
+  }
+  /* payment */
