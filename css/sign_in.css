@@ -25,21 +25,21 @@ body {
     border-radius: 15px;
     padding: 20px;
   }
-  .logo {
-   
+  .container .logo {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 100px;
     margin-left: 100px;
-  }
-  .logo img {
     border-radius: 60%;
     background-color: #DBECF7;
-    width: 360px;
-    height: 400px;
-    max-width: 600px; 
+  }
+  .logo img{
+   height: 400px;
+   padding: 30px;
+   margin-left: 25px;
+    
   }
   .btn_Sign_in{
     display: flex;
