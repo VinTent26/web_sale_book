@@ -103,6 +103,7 @@ header .row {
 
 .cart-container {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .cart-table {
     background-color: #DBECF7;
@@ -149,7 +150,7 @@ footer {
 .container {
     padding-left: 0; 
     padding-right: 0; 
-    margin-bottom: 20px;
+
 }
 
 

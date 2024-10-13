@@ -31,14 +31,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 30px;
-    margin-left: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
   }
   .logo img {
     border-radius: 60%;
     background-color: #DBECF7;
-    width: 260px;
-    height: 350px;
+    width: 360px;
+    height: 400px;
     max-width: 600px; 
   }
   .btn_Sign_in{
